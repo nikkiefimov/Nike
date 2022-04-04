@@ -1,0 +1,10 @@
+       self._variable = variable
+        self._input_log_factors = []
+        self._evidential_variables = ()
+        self._free_variables = ()
+
+    @property
+    def free_variables(self):
+        return self._free_variables
+
+    @property
